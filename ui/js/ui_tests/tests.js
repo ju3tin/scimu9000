@@ -77,7 +77,7 @@ var tests = (function() {
 
   function testConversation() {
     var suggestions = [
-      'Turn on the headlights',
+      'What time are visiting hours?',
       'Play some music',
       'jazz',
       'Turn on the AC',

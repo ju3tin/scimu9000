@@ -1,0 +1,273 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1769 1329">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#34bbe0;stroke-miterlimit:10;stroke-width:42.52px;}.cls-2{fill:#ffbc00;}.cls-3{fill:#2ff2ec;}.cls-4{fill:#3f4a56;}.cls-5{fill:#6b7d84;}.cls-6{fill:#e24b33;}.cls-7{fill:#34bbe0;}.cls-8{fill:#96362c;}.cls-9{fill:#ff0;}.cls-10{fill:#226b77;}.cls-11{fill:#25f2f2;}
+    @-webkit-keyframes blink {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  2% {
+    -webkit-transform: scaleY(0.15);
+            transform: scaleY(0.15);
+  }
+  4% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  8% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  10% {
+    -webkit-transform: scaleY(0.15);
+            transform: scaleY(0.15);
+  }
+  12% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes blink {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  2% {
+    -webkit-transform: scaleY(0.15);
+            transform: scaleY(0.15);
+  }
+  4% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  8% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  10% {
+    -webkit-transform: scaleY(0.15);
+            transform: scaleY(0.15);
+  }
+  12% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+/* line 60, /Users/Mark/repos/sci-mu-9000/src/sass/styles.scss */
+#eye-l,
+#eye-r {
+  -webkit-animation: blink 5s infinite;
+          animation: blink 5s infinite;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: .5;
+  }
+  2% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  11% {
+    opacity: .5;
+  }
+  12% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  67% {
+    opacity: .5;
+  }
+  68% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  91% {
+    opacity: .5;
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: .5;
+  }
+  2% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  11% {
+    opacity: .5;
+  }
+  12% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  67% {
+    opacity: .5;
+  }
+  68% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  91% {
+    opacity: .5;
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 82, /Users/Mark/repos/sci-mu-9000/src/sass/styles.scss */
+#spark {
+  -webkit-animation: flash 2s 2s infinite;
+          animation: flash 2s 2s infinite;
+}
+
+@-webkit-keyframes speak-t {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+}
+
+@keyframes speak-t {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+}
+
+@-webkit-keyframes speak-b {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+}
+
+@keyframes speak-b {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+}
+
+/* line 96, /Users/Mark/repos/sci-mu-9000/src/sass/styles.scss */
+.speak #teeth-t {
+  -webkit-animation: speak-t .2s infinite alternate;
+          animation: speak-t .2s infinite alternate;
+}
+
+/* line 100, /Users/Mark/repos/sci-mu-9000/src/sass/styles.scss */
+.speak #teeth-b {
+  -webkit-animation: speak-b .2s infinite backwards alternate;
+          animation: speak-b .2s infinite backwards alternate;
+}
+</style>
+  </defs>
+  <title>sci-mu-landscape</title>
+  <g id="antenna">
+    <g id="antenna-l">
+      <line class="cls-1" x1="582" y1="142" x2="612" y2="323" />
+      <circle class="cls-2" cx="582" cy="142" r="72" />
+    </g>
+    <g id="antenna-r">
+      <line class="cls-1" x1="1132.5" y1="126.5" x2="1100.5" y2="285.5" />
+      <circle class="cls-2" cx="1132" cy="127" r="72" />
+    </g>
+    <polygon id="spark" class="cls-3" points="811.34 225.44 772.15 108.91 712.38 167.46 682.62 137.08 790.85 31.09 827.66 140.56 902.3 52.7 955.46 139.49 1005.49 95.64 1033.51 127.62 945.54 204.71 896.7 124.97 811.34 225.44" />
+  </g>
+  <g id="limbs">
+    <g id="arm-r">
+      <path class="cls-4" d="M1268.68,1006.45l-38.36-75.9c65-32.82,101.62-83.3,103.25-142.13.87-31.56-8.35-64.1-26.68-94.1-19.33-31.64-47.9-59-82.63-79l42.5-73.66c47,27.13,86,64.58,112.71,108.32,26.92,44.07,40.45,92.75,39.12,140.78a228.66,228.66,0,0,1-39.1,121.49C1353.62,950.67,1316.34,982.36,1268.68,1006.45Z" />
+      <path class="cls-5" d="M1272.28,1004.61l-39.21-75.46c2.92-1.52,5.82-3.09,8.62-4.68l41.89,74C1279.9,1000.56,1276.09,1002.62,1272.28,1004.61Zm64.78-44.1L1280.51,897c2.32-2.06,4.59-4.19,6.76-6.32l59.58,60.67C1343.71,954.45,1340.41,957.53,1337.06,960.51Zm51.6-63-73.86-42.15c1.46-2.55,2.85-5.17,4.13-7.77l76.24,37.68C1393.14,889.34,1390.95,893.46,1388.66,897.48Zm27.4-78.52L1332,806.15c.43-2.86.79-5.77,1-8.67l84.7,7.63C1417.31,809.74,1416.75,814.39,1416.06,819Zm-85.59-65.62c-.59-2.92-1.27-5.89-2-8.81l82.32-21.34c1.14,4.4,2.17,8.88,3.07,13.3Zm-19.16-51.41c-1.49-2.7-3.07-5.42-4.71-8.08L1379,649.31c2.33,3.78,4.58,7.66,6.71,11.51Zm-33.81-45.35c-2.2-2.27-4.49-4.53-6.8-6.73l58.53-61.7c3.17,3,6.3,6.1,9.32,9.21Zm-44.92-36.23c-2.72-1.71-5.53-3.4-8.33-5l42.49-73.66c3.73,2.15,7.46,4.4,11.09,6.68Z" />
+    </g>
+    <g id="arm-l">
+      <path class="cls-4" d="M437.61,972.51c-65.27-43-111.07-95.05-136.14-154.71-22.41-53.33-26.78-110.22-12.64-164.5,11.61-44.58,34.8-84.14,67.06-114.41,33.83-31.74,74.29-50.17,117-53.3l6.21,84.81c-48.51,3.55-92.91,46.45-108,104.32-9.39,36.07-6.37,74.15,8.75,110.13,18.42,43.83,53.58,83.07,104.52,116.63Z" />
+      <path class="cls-5" d="M393.93,939.9c-3.23-2.74-6.44-5.55-9.53-8.34l57-63.09c2.44,2.2,5,4.42,7.53,6.59Zm-53.25-55.34c-2.66-3.44-5.27-7-7.77-10.5l69.38-49.17c1.84,2.59,3.76,5.19,5.72,7.73Zm-39.85-68.3c-1.71-4.14-3.33-8.35-4.82-12.52l80.09-28.58c1,2.87,2.14,5.77,3.32,8.64Zm-19.19-78.47c-.38-4.51-.64-9.09-.78-13.59l85-2.57c.09,3,.26,6,.52,9Zm88.94-60.9L288,656.55c1.09-4.41,2.31-8.84,3.63-13.17L373,668.2C372.1,671,371.29,674,370.57,676.89Zm21.19-49.17-71.3-46.34c2.51-3.85,5.15-7.67,7.86-11.35l68.49,50.4C395.07,622.78,393.37,625.23,391.76,627.71ZM427.31,590l-49.43-69.2c3.89-2.78,7.9-5.44,11.92-7.91l44.48,72.48C431.94,586.83,429.59,588.39,427.31,590Zm44.13-18.72-13.41-84c4.92-.79,9.92-1.37,14.86-1.73l6.21,84.81C476.56,570.59,474,570.89,471.45,571.3Z" />
+    </g>
+    <g id="leg-r">
+      <path class="cls-4" d="M1024.39,1345.81c-9.08-85.19-40-118.91-40.31-119.24.44.47.69.69.69.69l59.11-61.14c2.58,2.49,16.15,16.34,30.35,44.34,17.86,35.21,29.54,77.72,34.72,126.33Z" />
+      <path class="cls-5" d="M1023.49,1338c-.43-3.4-.9-6.8-1.41-10.09l84.05-12.93c.62,4,1.2,8.2,1.73,12.36Zm-12.67-58.56c-1-3.11-2.07-6.18-3.16-9.13l79.78-29.44c1.47,4,2.91,8.13,4.26,12.29Zm-23.46-48.8a49.55,49.55,0,0,0-3.28-4.08c.44.47.69.69.69.69l59.11-61.14a114.74,114.74,0,0,1,11.91,14.05Z" />
+    </g>
+    <g id="leg-l">
+      <path class="cls-4" d="M648.52,1347.38V1347h-85c0-2.83.32-28.7,11.51-65,14.54-47.22,41.3-92,77.38-129.47l61.27,59c-26.4,27.42-45.36,58.49-56.36,92.34C648.94,1329.44,648.52,1347.21,648.52,1347.38Z" />
+      <path class="cls-5" d="M657.13,1304.25l-80.93-26.13c1.21-3.74,2.52-7.54,3.88-11.27l79.85,29.26C658.95,1298.82,658,1301.56,657.13,1304.25Zm21.49-47.18-73-43.65c2-3.36,4.11-6.73,6.23-10l71.36,46.25C681.66,1252.1,680.11,1254.59,678.62,1257.08Z" />
+      <path class="cls-5" d="M710.27,1215l-62.33-57.85q2.17-2.34,4.42-4.68l61.28,59Q711.92,1213.26,710.27,1215Z" />
+    </g>
+  </g>
+  <g id="body">
+    <polygon id="body-t" class="cls-6" points="506 297 1188 244 1318 597 440 523 506 297" />
+    <polygon id="body-b" class="cls-7" points="440 523 1318 597 1217 1254 497 1192 440 523" />
+    <polygon id="eye-bg" class="cls-8" points="620 357 1096 333 1171 514 572 473 620 357" />
+    <polygon id="eye-l" class="cls-9" points="681 480 695 432 774 432 790 488 681 480" />
+    <polygon id="eye-r" class="cls-9" points="951 499 972 432 1032 428 1060 506 951 499" />
+    <polygon id="mouth-bg" class="cls-10" points="575 616 612 856 1114 888 1180 665 575 616" />
+    <polygon id="teeth-b" class="cls-11" points="606 642 621 719 1123 755 1143 684 606 642" />
+    <polygon id="teeth-t" class="cls-11" points="640 835 630 786 1107 821 1093 863 640 835" />
+  </g>
+  <g id="claws">
+    <g id="claw-l">
+      <path class="cls-6" d="M535.57,1095.86a114.38,114.38,0,1,1,104.3-161.18l-51.73,23.19a57.65,57.65,0,1,0-29,76.19l23.19,51.73A114.06,114.06,0,0,1,535.57,1095.86Z" />
+      <circle class="cls-2" cx="459.34" cy="941.08" r="61" transform="translate(-344.77 270.23) rotate(-24.15)" />
+    </g>
+    <g id="claw-r">
+      <path class="cls-6" d="M1180.16,1134.32c-1.07,0-2.14,0-3.21,0l1.55-56.67a57.65,57.65,0,1,0-56.05-59.21l-56.67-1.55a114.35,114.35,0,1,1,114.39,117.48Z" />
+      <circle class="cls-2" cx="1249.51" cy="968.86" r="61" transform="translate(246.82 2191.39) rotate(-88.43)" />
+    </g>
+  </g>
+</svg>

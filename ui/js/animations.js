@@ -53,7 +53,7 @@ var Animations = (function() {
     lowerDrops: 'lowerDrops'
   };
   var idSelectors = {
-    svgCanvas: '#svg_canvas',
+  //  svgCanvas: '#svg_canvas',
     speedometer: '#speedometer',
     revmeter: '#revmeter',
     rightNeedle: '#right_needle',
@@ -73,7 +73,7 @@ var Animations = (function() {
     cloud6: '#cloud6'
   };
   var svgUrls = {
-    background: './images/background.svg',
+    background: './images/background1.svg',
     dashboard: './images/dashboard.svg',
     sky: './images/sky.svg'
   };

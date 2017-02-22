@@ -28,14 +28,14 @@ var Sidebar = (function() {
   };
 
   var suggestions = [
-    'Turn on the headlights',
-    'Shut off my lights',
-    'Play some music',
-    'When will the rain end?',
-    'What’s my ETA?',
-    'Show me what’s nearby',
-    'Find a gas station',
-    'Turn my radio up'
+    'What time are visiting hours?',
+    'What time is breakfast lunch?',
+    'When is my operation scheduled?',
+    'When will I get my lab test results?',
+    'When is the doctor coming round?',
+    'When will I be getting discharged?',
+    'When is bed time?',
+    'When can I get a wash?'
   ];
 
 
