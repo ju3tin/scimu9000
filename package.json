@@ -8,7 +8,9 @@
     "lint": "eslint .",
     "autofix": "eslint --fix .",
     "postinstall": "gulp build-html",
-    "watch": "gulp server:watch"
+    "watch": "gulp server:watch",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "IBM Corp.",
   "dependencies": {
@@ -21,12 +23,13 @@
     "mocha": "^2.5.3",
     "request": "^2.72.0",
     "vcap_services": "^0.2.0",
-    "watson-developer-cloud": "^1.12.2",
+    "watson-developer-cloud": "^2.39.2",
     "watson-speech": "^0.19.1",
-    "cloudant": "1.4.1",
+    "cloudant": "1.6.0",
     "express-csv": "0.6.0",
-    "nano" : "*",
-    "uuid": "2.0.2"
+    "nano": "*",
+    "uuid": "2.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
@@ -51,5 +54,6 @@
     "supertest": "^1.2.0",
     "uglifyjs": "^2.4.10",
     "whatwg-fetch": "^0.11.0"
-  }
+  },
+  "snyk": true
 }
